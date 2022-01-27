@@ -4,6 +4,7 @@
   "parameters": {
     "acrName": {
       "type": "string",
+      "defaultValue": "3tiernodejsacr",
       "minLength": 5,
       "maxLength": 50,
       "metadata": {
@@ -12,7 +13,7 @@
     },
     "acrAdminUserEnabled": {
       "type": "bool",
-      "defaultValue": false,
+      "defaultValue": true,
       "metadata": {
         "description": "Enable admin user that have push / pull permission to the registry."
       }
